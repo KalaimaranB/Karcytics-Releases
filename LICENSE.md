@@ -1,6 +1,6 @@
 # Karcytics License Agreement
 
-Version 2026-11-25 · applies to Karcytics 2.2.0 and later
+Version 2026-11-25.3 · applies to Karcytics 2.2.0 and later
 
 Copyright © 2025–2026 Kalaimaran Balasothy. All rights reserved.
 
@@ -16,7 +16,9 @@ The Software runs only with a valid license file issued by the Licensor or by an
 
 **Educator license.** Issued to one named instructor or teaching staff member at an accredited educational institution. It lets that person use the covered modules to prepare and teach courses and for non-commercial academic research, on up to the number of computers stated in the license.
 
-**Commercial license.** Required for any use by or for a company or other for-profit organization, or for any use in the course of providing paid services. Commercial licenses are granted only under a separate written agreement with the Licensor. Using a class or educator license for commercial purposes is not permitted.
+**Academic license.** Issued to one named researcher, or a research group, at an accredited university, college, hospital research institute or non-profit research institute. It lets the named people use the covered modules for non-commercial academic research and for publishing its results, on up to the number of computers stated in the license. Research done on behalf of a company, or under an agreement that gives a company rights to the results, is commercial use and is not covered.
+
+**Commercial license.** Required for any use by or for a company or other for-profit organization, or for any use in the course of providing paid services. Commercial licenses are granted only under a separate written agreement with the Licensor. Using a class, educator or academic license for commercial purposes is not permitted.
 
 ## 2. What the license allows
 
@@ -49,7 +51,13 @@ The Software is licensed, not sold. The Licensor and its licensors keep all righ
 
 ## 6. Privacy
 
-To activate and check a license, the Software sends the license file, an anonymous machine identifier (a one-way hash that does not reveal your identity or hardware details) and the Software version to the license server. A class license contains the course name and no personal information. An educator or commercial license contains the licensee's name. The Software sends crash reports only if you choose to enable them, and never sends your data files. You can change the crash-report setting at any time under Settings → Diagnostics & Privacy.
+To activate and check a license, the Software sends the license file, an anonymous machine identifier and the Software version to the license server. The machine identifier is a one-way hash of your computer's operating-system ID combined with the license ID. It does not reveal your identity or hardware details, and the same computer has a different identifier under each license, so activations under different licenses cannot be linked to each other.
+
+For each activated computer, the license server keeps the machine identifier, the date the computer was first activated, the date it last checked in and the Software version it last used. It records dates only, not times, and does not store your IP address, name, email address, username or computer name. A class license contains the course name and no personal information. An educator, academic or commercial license contains the licensee's name.
+
+The license server runs on Cloudflare, and this information may be stored outside Canada. Activation records are deleted automatically 12 months after the license's update period ends. Records of licenses themselves are kept so that revocations keep working.
+
+The Software sends crash reports only if you choose to enable them, and never sends your data files. You can change the crash-report setting at any time under Settings → Diagnostics & Privacy. To ask about or request deletion of your activation records, contact <karcytics@gmail.com>.
 
 ## 7. Third-party components
 
