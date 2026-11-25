@@ -73,4 +73,4 @@ This agreement is governed by the laws of the Province of British Columbia and t
 
 ## Contact
 
-License questions: karcytics@gmail.com
+License questions: <karcytics@gmail.com>
